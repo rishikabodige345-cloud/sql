@@ -1,0 +1,92 @@
+Create a function that prints "Hello, World!".
+def funone():
+   print(“hello,world”)
+funone()
+Create a function that prints your name.
+def name():
+   print(“rupa”)
+name()
+Create a function that prints today's date.
+def date():
+    print(“05-08-2026”)
+date()
+Create a function that prints numbers from 1 to 10.
+def numbers():
+   print(“1,2,3,4,5,6,7,8,9,10”)
+numbers()
+Create a function that prints the multiplication table of 5.
+def table():
+  for i in range(1,11):
+     print(5 * i)
+table()
+Create a function that prints all even numbers from 1 to 20.
+def even():
+ for i in range(2,21,2)
+    print(i)
+even()
+Create a function that prints all odd numbers from 1 to 20.
+def odd():
+for i in range(1,21,2)
+   print(i)
+odd()
+Create a function that prints a square pattern of stars (4 × 4).
+def square():
+for i in range(4):
+ print(“* * * *”)
+square()
+Create a function that prints a right-angled triangle of stars.
+def triangle():
+ for i in range(1,5):
+ print(“*” * i)
+triangle()
+Create a function that prints the message "Welcome to Python Programming".
+def message():
+ print(“welcoming to python programming”)
+message()
+Create a function that takes a name and prints a welcome message.
+def welcome(name):
+print(“welcome”,rupa)
+welcome(“rupa)
+Create a function that takes two numbers and prints their sum.
+def add(a,b):
+print(a+b)
+add(20,30)
+Create a function that takes two numbers and prints their difference.
+def sub(a,b):
+print(a-b)
+sub(5,2)
+Create a function that takes two numbers and prints their product.
+def mul(a,b):
+print(a*b)
+mul(4,5)
+Create a function that takes two numbers and prints their division.
+def div(a,b):
+print(a/b)
+div(6,3)
+Create a function that takes a number and prints its square.
+def square(n):
+print(n * n)
+square(4)
+Create a function that takes a number and prints its cube.
+def cube(n):
+print(n * n * n)
+cube(3)
+Create a function that takes a number and checks whether it is even or odd.
+def evenodd(n):
+if n % 2==0:
+print(“even”)
+else:
+print(“odd”)
+evenodd(5)
+Create a function that takes a number and checks whether it is positive or negative.
+def  check(n):
+if n > 0:
+print(“positive”)
+else:
+print(“negative”)
+check(2)
+Create a function that takes a string and prints its length.
+def length(s):
+print(len(s))
+length(“python”)
+
