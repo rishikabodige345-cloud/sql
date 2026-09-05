@@ -1,0 +1,28 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fib(n-1) + fib(n-2)
+
+def sum_digits(num):
+    if num == 0:
+        return 0
+    return (num % 10) + sum_digits(num // 10)
+
+def reverse_string(s):
+    if len(s) <= 1:
+        return s
+    return s[-1] + reverse_string(s[:-1])
+
+def is_palindrome(s):
+    if len(s) <= 1:
+        return True
+    if s[0]!= s[-1]:
+        return False
+    return is_palindrome(s[1:-1])
