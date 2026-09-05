@@ -1,0 +1,697 @@
+### 1.
+
+python
+text = "Python"
+print(text[1:4])
+
+
+A) yth
+B) Pyt
+C) tho
+D) ytho
+
+✅ *Answer: A) yth*
+
+### 2.
+
+python
+text = "Programming"
+print(text[:5])
+
+
+A) Progr
+B) Progra
+C) Progrm
+D) gram
+
+✅ *Answer: A) Progr*
+
+### 3.
+
+python
+text = "Programming"
+print(text[5:])
+
+
+A) amming
+B) ramming
+C) gramming
+D) ming
+
+✅ *Answer: C) gramming*
+
+### 4.
+
+python
+text = "Python"
+print(text[-3:])
+
+
+A) hon
+B) tho
+C) yth
+D) on
+
+✅ *Answer: A) hon*
+
+### 5.
+
+python
+text = "Computer"
+print(text[:-2])
+
+
+A) Comput
+B) Compute
+C) uter
+D) ter
+
+✅ *Answer: B) Comput*
+
+### 6.
+
+python
+text = "Education"
+print(text[::2])
+
+
+A) Euain
+B) Edcto
+C) Euaio
+D) ducat
+
+✅ *Answer: A) Euain*
+
+### 7.
+
+python
+text = "Python"
+print(text[::-1])
+
+
+A) nohtyP
+B) Python
+C) nohtP
+D) Pnohty
+
+✅ *Answer: A) nohtyP*
+
+### 8.
+
+python
+text = "Welcome"
+print(text[2:7])
+
+
+A) lcome
+B) lcom
+C) elcom
+D) come
+
+✅ *Answer: A) lcome*
+
+### 9.
+
+python
+text = "Database"
+print(text[3:8])
+
+
+A) abase
+B) abas
+C) ataba
+D) taba
+
+✅ *Answer: A) abase*
+
+### 10.
+
+python
+text = "Artificial"
+print(text[1:9:2])
+
+
+A) riii
+B) riiil
+C) rifca
+D) rtca
+
+✅ *Answer: A) riii*
+
+### 11.
+
+python
+text = "Developer"
+print(text[-5:-1])
+
+
+A) ope
+B) lope
+C) oper
+D) per
+
+✅ *Answer: B) lope*
+
+### 12.
+
+python
+text = "Machine"
+print(text[::3])
+
+
+A) Mhi
+B) Mcn
+C) Mae
+D) Mac
+
+✅ *Answer: None of these — correct output is Mhe*
+
+### 13.
+
+python
+text = "Notebook"
+print(text[-1])
+
+
+A) k
+B) o
+C) b
+D) e
+
+✅ *Answer: A) k*
+
+### 14.
+
+python
+text = "Science"
+print(text[2])
+
+
+A) i
+B) e
+C) c
+D) n
+
+✅ *Answer: A) i*
+
+### 15.
+
+python
+text = "Internet"
+print(text[2:-2])
+
+
+A) tern
+B) terne
+C) terne
+D) rnet
+
+✅ *Answer: A) tern*
+
+### 16.
+
+python
+text = "Python"
+print(text[10:])
+
+
+A) Error
+B) ""
+C) None
+D) 0
+
+✅ *Answer: B) ""*
+
+### 17.
+
+python
+text = "Coding"
+print(text[4:2])
+
+
+A) di
+B) od
+C) ""
+D) Error
+
+✅ *Answer: C) ""*
+
+### 18.
+
+python
+text = "Computer"
+print(text[1:8:2])
+
+
+A) opt
+B) opte
+C) optr
+D) mpt
+
+✅ *Answer: C) optr*
+
+### 19.
+
+python
+text = "Python"
+print(text[::-2])
+
+
+A) nhy
+B) nht
+C) noP
+D) hto
+
+✅ *Answer: A) nhy*
+
+### 20.
+
+python
+text = "Learning"
+print(text[-4:])
+
+
+A) ning
+B) earn
+C) ningg
+D) ing
+
+✅ *Answer: A) ning*
+
+### 21.
+
+python
+x = int("25")
+print(type(x))
+
+
+A) str
+B) int
+C) float
+D) bool
+
+✅ *Answer: B) int*
+
+### 22.
+
+python
+x = float(10)
+print(x)
+
+
+A) 10
+B) 10.0
+C) "10.0"
+D) Error
+
+✅ *Answer: B) 10.0*
+
+### 23.
+
+python
+x = str(45)
+print(type(x))
+
+
+A) int
+B) float
+C) str
+D) bool
+
+✅ *Answer: C) str*
+
+### 24.
+
+python
+x = bool(0)
+print(x)
+
+
+A) True
+B) False
+C) 0
+D) Error
+
+✅ *Answer: B) False*
+
+### 25.
+
+python
+x = bool(8)
+print(x)
+
+
+A) False
+B) True
+C) 8
+D) Error
+
+✅ *Answer: B) True*
+
+### 26.
+
+python
+x = int(7.9)
+print(x)
+
+
+A) 7.9
+B) 8
+C) 7
+D) Error
+
+✅ *Answer: C) 7*
+
+### 27.
+
+python
+x = float("18.5")
+print(type(x))
+
+
+A) int
+B) str
+C) float
+D) bool
+
+✅ *Answer: C) float*
+
+### 28.
+
+python
+x = str(True)
+print(x)
+
+
+A) True
+B) "True"
+C) False
+D) Error
+
+✅ *Answer: B) "True"*
+
+### 29.
+
+python
+x = int(True)
+print(x)
+
+
+A) True
+B) 0
+C) 1
+D) Error
+
+✅ *Answer: C) 1*
+
+### 30.
+
+python
+x = int(False)
+print(x)
+
+
+A) 1
+B) False
+C) 0
+D) Error
+
+✅ *Answer: C) 0*
+
+### 31.
+
+python
+x = int("100")
+y = float(x)
+print(type(y))
+
+
+A) int
+B) float
+C) str
+D) bool
+
+✅ *Answer: B) float*
+
+### 32.
+
+python
+x = float("50")
+y = int(x)
+print(y)
+
+
+A) 50
+B) 50.0
+C) Error
+D) "50"
+
+✅ *Answer: A) 50*
+
+### 33.
+
+python
+x = str(5.8)
+print(type(x))
+
+
+A) float
+B) int
+C) str
+D) bool
+
+✅ *Answer: C) str*
+
+### 34.
+
+python
+print(int("007"))
+
+
+A) 007
+B) 7
+C) Error
+D) "7"
+
+✅ *Answer: B) 7*
+
+### 35.
+
+python
+print(float("25"))
+
+
+A) 25
+B) 25.0
+C) Error
+D) "25"
+
+✅ *Answer: B) 25.0*
+
+### 36.
+
+python
+print(bool(""))
+
+
+A) True
+B) False
+C) ""
+D) Error
+
+✅ *Answer: B) False*
+
+### 37.
+
+python
+print(bool("Python"))
+
+
+A) False
+B) True
+C) Error
+D) None
+
+✅ *Answer: B) True*
+
+### 38.
+
+python
+print(str(False))
+
+
+A) False
+B) "False"
+C) 0
+D) Error
+
+✅ *Answer: B) "False"*
+
+### 39.
+
+python
+x = int(float("35.9"))
+print(x)
+
+
+A) 36
+B) 35.9
+C) 35
+D) Error
+
+✅ *Answer: C) 35*
+
+### 40.
+
+python
+print(float(True))
+
+
+A) 1.0
+B) True
+C) Error
+D) 0.0
+
+✅ *Answer: A) 1.0*
+
+### 41.
+
+python
+text = "12345"
+print(int(text[2]))
+
+
+A) "3"
+B) 3
+C) Error
+D) 2
+
+✅ *Answer: B) 3*
+
+### 42.
+
+python
+text = "56789"
+print(float(text[:2]))
+
+
+A) 56.0
+B) 56789.0
+C) Error
+D) "56"
+
+✅ *Answer: A) 56.0*
+
+### 43.
+
+python
+text = "98765"
+print(str(int(text[-1])))
+
+
+A) 5
+B) "5"
+C) Error
+D) 65
+
+✅ *Answer: B) "5"*
+
+### 44.
+
+python
+text = "Python3"
+print(text[:-1])
+
+
+A) Python
+B) Python3
+C) ython
+D) 3
+
+✅ *Answer: A) Python*
+
+### 45.
+
+python
+text = "4567"
+print(bool(int(text)))
+
+
+A) False
+B) True
+C) Error
+D) 4567
+
+✅ *Answer: B) True*
+
+### 46.
+
+python
+text = "100"
+x = int(text)
+print(x + 50)
+
+
+A) 150
+B) 10050
+C) Error
+D) "150"
+
+✅ *Answer: A) 150*
+
+### 47.
+
+python
+text = "3.14"
+x = float(text)
+print(type(x))
+
+
+A) str
+B) float
+C) int
+D) bool
+
+✅ *Answer: B) float*
+
+### 48.
+
+python
+text = "Welcome"
+print(text[1:-1])
+
+
+A) elcom
+B) elcome
+C) Welcom
+D) lcome
+
+✅ *Answer: A) elcom*
+
+### 49.
+
+python
+text = "2468"
+print(int(text[:2]) + int(text[2:]))
+
+
+A) 70
+B) 2468
+C) 92
+D) Error
+
+✅ *Answer: A) 70*
+
+### 50.
+
+python
+text = "987654"
+print(text[::2])
+
+
+A) 975
+B) 864
+C) 987
+D) 954
+
+✅ *Answer: A) 975*
