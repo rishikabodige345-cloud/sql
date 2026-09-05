@@ -1,0 +1,40 @@
+# 1. Factorial using recursion
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+# 2. Fibonacci using recursion
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fib(n-1) + fib(n-2)
+
+# 3. Sum of digits using recursion
+def sum_digits(num):
+    if num == 0:
+        return 0
+    return (num % 10) + sum_digits(num // 10)
+
+# 4. Reverse string using recursion
+def reverse_string(s):
+    if len(s) <= 1:
+        return s
+    return s[-1] + reverse_string(s[:-1])
+
+# 5. (Optional) Palindrome check using recursion
+def is_palindrome(s):
+    if len(s) <= 1:
+        return True
+    if s[0]!= s[-1]:
+        return False
+    return is_palindrome(s[1:-1])
+
+# --- Testing ---
+print(f"factorial(5) = {factorial(5)}") # 120
+print(f"fib(6) = {fib(6)}") # 8
+print(f"sum_digits(12345) = {sum_digits(12345)}") # 15
+print(f"reverse_string('hello') = {reverse_string('hello')}") # olleh
+print(f"is_palindrome('madam') = {is_palindrome('madam')}") # True
