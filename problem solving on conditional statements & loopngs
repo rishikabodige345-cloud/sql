@@ -1,21 +1,31 @@
-print("Perfect square numbers between 1 and 100:")
+# Program to print all perfect square numbers between 1 and 100
 
-for i in range(1, 101):
-    if int(i * 0.5) * 2 == i:
-        print(i, end=" ")
+for num in range(1, 101):
 
-print("\nArmstrong numbers between 1 and 100:")
+    square = int(num ** 0.5)
 
-for i in range(1, 101):
-    temp = i
+    if square * square == num:
+
+        print(num)
+
+# Program to print all Armstrong numbers between 1 and 100
+
+for num in range(1, 101):
+
+    temp = num
+
+    digits = len(str(num))
+
     total = 0
 
     while temp > 0:
+
         digit = temp % 10
-        total = total + digit ** 3
+
+        total = total + digit ** digits
+
         temp = temp // 10
 
-    if total == i:
-        print(i, end=" ")
+    if total == num:
 
-  
+        print(num)
