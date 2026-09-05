@@ -10,7 +10,7 @@ B) Pyt
 C) tho
 D) ytho
 
-✅ *Answer: A) yth
+✅ *Answer: A) yth*
 
 ### 2.
 
@@ -24,7 +24,7 @@ B) Progra
 C) Progrm
 D) gram
 
-✅ *Answer: A) Progr
+✅ *Answer: A) Progr*
 
 ### 3.
 
@@ -38,7 +38,7 @@ B) ramming
 C) gramming
 D) ming
 
-✅ *Answer: C) gramming
+✅ *Answer: C) gramming*
 
 ### 4.
 
@@ -52,7 +52,7 @@ B) tho
 C) yth
 D) on
 
-✅ *Answer: A) hon
+✅ *Answer: A) hon*
 
 ### 5.
 
@@ -66,7 +66,7 @@ B) Compute
 C) uter
 D) ter
 
-✅ *Answer: B) Comput
+✅ *Answer: A) Comput*
 
 ### 6.
 
@@ -80,7 +80,7 @@ B) Edcto
 C) Euaio
 D) ducat
 
-✅ *Answer: A) Euain
+✅ *Answer: A) Euain*
 
 ### 7.
 
@@ -94,7 +94,7 @@ B) Python
 C) nohtP
 D) Pnohty
 
-✅ *Answer: A) nohtyP
+✅ *Answer: A) nohtyP*
 
 ### 8.
 
@@ -108,7 +108,7 @@ B) lcom
 C) elcom
 D) come
 
-✅ *Answer: A) lcome
+✅ *Answer: A) lcome*
 
 ### 9.
 
@@ -122,7 +122,7 @@ B) abas
 C) ataba
 D) taba
 
-✅ *Answer: A) abase
+✅ *Answer: A) abase*
 
 ### 10.
 
@@ -131,12 +131,12 @@ text = "Artificial"
 print(text[1:9:2])
 
 
-A) riii
+A) riia
 B) riiil
 C) rifca
 D) rtca
 
-✅ *Answer: A) riii
+✅ *Answer: A) riia*
 
 ### 11.
 
@@ -150,7 +150,7 @@ B) lope
 C) oper
 D) per
 
-✅ *Answer: B) lope
+✅ *Answer: B) lope*
 
 ### 12.
 
@@ -164,7 +164,7 @@ B) Mcn
 C) Mae
 D) Mac
 
-✅ *Answer: None of these — correct output is Mhe
+✅ *Answer: None of these — correct output is Mhe*
 
 ### 13.
 
@@ -178,7 +178,7 @@ B) o
 C) b
 D) e
 
-✅ *Answer: A) k
+✅ *Answer: A) k*
 
 ### 14.
 
@@ -192,7 +192,7 @@ B) e
 C) c
 D) n
 
-✅ *Answer: A) i
+✅ *Answer: A) i*
 
 ### 15.
 
@@ -206,7 +206,7 @@ B) terne
 C) terne
 D) rnet
 
-✅ *Answer: A) tern
+✅ *Answer: A) tern*
 
 ### 16.
 
@@ -220,7 +220,7 @@ B) ""
 C) None
 D) 0
 
-✅ *Answer: B) ""
+✅ *Answer: B) ""*
 
 ### 17.
 
@@ -234,7 +234,7 @@ B) od
 C) ""
 D) Error
 
-✅ *Answer: C) ""
+✅ *Answer: C) ""*
 
 ### 18.
 
@@ -248,7 +248,7 @@ B) opte
 C) optr
 D) mpt
 
-✅ *Answer: C) optr
+✅ *Answer: C) optr*
 
 ### 19.
 
@@ -262,7 +262,7 @@ B) nht
 C) noP
 D) hto
 
-✅ *Answer: A) nhy
+✅ *Answer: A) nhy*
 
 ### 20.
 
@@ -276,11 +276,27 @@ B) earn
 C) ningg
 D) ing
 
-✅ *Answer: A) ning
+✅ *Answer: A) ning*
 
-Type Conversion
+---
+
+## Type Conversion
 
 ### 21.
+
+python
+text = "Developer"
+print(text)
+
+
+A) Developer
+B) Develop
+C) Develope
+D) Error
+
+✅ *Answer: A) Developer*
+
+### 22.
 
 python
 x = int("25")
@@ -292,9 +308,9 @@ B) int
 C) float
 D) bool
 
-✅ *Answer: B) int
+✅ *Answer: B) int*
 
-### 22.
+### 23.
 
 python
 x = float(10)
@@ -306,9 +322,9 @@ B) 10.0
 C) "10.0"
 D) Error
 
-✅ *Answer: B) 10.0
+✅ *Answer: B) 10.0*
 
-### 23.
+### 24.
 
 python
 x = str(45)
@@ -320,9 +336,9 @@ B) float
 C) str
 D) bool
 
-✅ *Answer: C) str
+✅ *Answer: C) str*
 
-### 24.
+### 25.
 
 python
 x = bool(0)
@@ -334,9 +350,9 @@ B) False
 C) 0
 D) Error
 
-✅ *Answer: B) False
+✅ *Answer: B) False*
 
-### 25.
+### 26.
 
 python
 x = bool(8)
@@ -348,9 +364,9 @@ B) True
 C) 8
 D) Error
 
-✅ *Answer: B) True
+✅ *Answer: B) True*
 
-### 26.
+### 27.
 
 python
 x = int(7.9)
@@ -362,9 +378,9 @@ B) 8
 C) 7
 D) Error
 
-✅ *Answer: C) 7
+✅ *Answer: C) 7*
 
-### 27.
+### 28.
 
 python
 x = float("18.5")
@@ -376,9 +392,9 @@ B) str
 C) float
 D) bool
 
-✅ *Answer: C) float
+✅ *Answer: C) float*
 
-### 28.
+### 29.
 
 python
 x = str(True)
@@ -390,9 +406,9 @@ B) "True"
 C) False
 D) Error
 
-✅ *Answer: B) "True"
+✅ *Answer: B) "True"*
 
-### 29.
+### 30.
 
 python
 x = int(True)
@@ -404,9 +420,9 @@ B) 0
 C) 1
 D) Error
 
-✅ *Answer: C) 1
+✅ *Answer: C) 1*
 
-### 30.
+### 31.
 
 python
 x = int(False)
@@ -418,9 +434,9 @@ B) False
 C) 0
 D) Error
 
-✅ *Answer: C) 0
+✅ *Answer: C) 0*
 
-### 31.
+### 32.
 
 python
 x = int("100")
@@ -433,9 +449,9 @@ B) float
 C) str
 D) bool
 
-✅ *Answer: B) float
+✅ *Answer: B) float*
 
-### 32.
+### 33.
 
 python
 x = float("50")
@@ -448,9 +464,9 @@ B) 50.0
 C) Error
 D) "50"
 
-✅ *Answer: A) 50
+✅ *Answer: A) 50*
 
-### 33.
+### 34.
 
 python
 x = str(5.8)
@@ -462,9 +478,9 @@ B) int
 C) str
 D) bool
 
-✅ *Answer: C) str
+✅ *Answer: C) str*
 
-### 34.
+### 35.
 
 python
 print(int("007"))
@@ -475,9 +491,9 @@ B) 7
 C) Error
 D) "7"
 
-✅ *Answer: B) 7
+✅ *Answer: B) 7*
 
-### 35.
+### 36.
 
 python
 print(float("25"))
@@ -488,9 +504,9 @@ B) 25.0
 C) Error
 D) "25"
 
-✅ *Answer: B) 25.0
+✅ *Answer: B) 25.0*
 
-### 36.
+### 37.
 
 python
 print(bool(""))
@@ -501,9 +517,9 @@ B) False
 C) ""
 D) Error
 
-✅ *Answer: B) False
+✅ *Answer: B) False*
 
-### 37.
+### 38.
 
 python
 print(bool("Python"))
@@ -514,9 +530,9 @@ B) True
 C) Error
 D) None
 
-✅ *Answer: B) True
+✅ *Answer: B) True*
 
-### 38.
+### 39.
 
 python
 print(str(False))
@@ -527,9 +543,9 @@ B) "False"
 C) 0
 D) Error
 
-✅ *Answer: B) "False"
+✅ *Answer: B) "False"*
 
-### 39.
+### 40.
 
 python
 x = int(float("35.9"))
@@ -541,22 +557,11 @@ B) 35.9
 C) 35
 D) Error
 
-✅ *Answer: C) 35
+✅ *Answer: C) 35*
 
-### 40.
+---
 
-python
-print(float(True))
-
-
-A) 1.0
-B) True
-C) Error
-D) 0.0
-
-✅ *Answer: A) 1.0
-
-Mixed(slicing+Type conversion)
+## Mixed (Slicing + Type Conversion)
 
 ### 41.
 
@@ -570,7 +575,7 @@ B) 3
 C) Error
 D) 2
 
-✅ *Answer: B) 3
+✅ *Answer: B) 3*
 
 ### 42.
 
@@ -584,7 +589,7 @@ B) 56789.0
 C) Error
 D) "56"
 
-✅ *Answer: A) 56.0
+✅ *Answer: A) 56.0*
 
 ### 43.
 
@@ -598,85 +603,104 @@ B) "5"
 C) Error
 D) 65
 
-✅ *Answer: B) "5"
+✅ *Answer: B) "5"*
 
 ### 44.
 
 python
-text = "Python3"
-print(text[:-1])
+text = "2468"
+x = int(text[1:3])
+print(x)
 
 
-A) Python
-B) Python3
-C) ython
-D) 3
+A) 24
+B) 46
+C) 68
+D) 2468
 
-✅ *Answer: A) Python
+✅ *Answer: B) 46*
 
 ### 45.
 
 python
 text = "4567"
-print(bool(int(text)))
+x = int(text[:2])
+print(x)
 
 
-A) False
-B) True
-C) Error
-D) 4567
+A) 45
+B) 67
+C) 4567
+D) Error
 
-✅ *Answer: B) True
+✅ *Answer: A) 45*
 
 ### 46.
 
 python
-text = "100"
-x = int(text)
-print(x + 50)
+text = "123.45"
+x = float(text[0:6])
+print(x)
 
 
-A) 150
-B) 10050
-C) Error
-D) "150"
+A) 123
+B) 123.45
+C) 12.345
+D) Error
 
-✅ *Answer: A) 150
+✅ *Answer: B) 123.45*
 
 ### 47.
 
 python
-text = "3.14"
-x = float(text)
-print(type(x))
+text = "98765"
+x = int(text[1:4])
+print(x)
 
 
-A) str
-B) float
-C) int
-D) bool
+A) 987
+B) 876
+C) 765
+D) 87
 
-✅ *Answer: B) float
+✅ *Answer: B) 876*
 
 ### 48.
 
 python
-text = "Welcome"
-print(text[1:-1])
+text = "10025"
+x = int(text[:3])
+print(x + 50)
 
 
-A) elcom
-B) elcome
-C) Welcom
-D) lcome
+A) 100
+B) 150
+C) 10050
+D) Error
 
-✅ *Answer: A) elcom
+✅ *Answer: B) 150*
 
 ### 49.
 
 python
+text = "35.9"
+x = float(text[:4])
+print(x)
+
+
+A) 35
+B) 35.9
+C) 359
+D) Error
+
+✅ *Answer: B) 35.9*
+
+### 50.
+
+python
 text = "2468"
-print(int(text[:2]) + int(text[2:]))
+x = int(text[:2]) + int(text[2:])
+print(x)
 
 
 A) 70
@@ -684,18 +708,5 @@ B) 2468
 C) 92
 D) Error
 
-✅ *Answer: A) 70
+✅ *Answer: A) 70*
 
-### 50.
-
-python
-text = "987654"
-print(text[::2])
-
-
-A) 975
-B) 864
-C) 987
-D) 954
-
-✅ *Answer: A) 975
