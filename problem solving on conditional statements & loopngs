@@ -1,31 +1,46 @@
-# Program to print all perfect square numbers between 1 and 100
+# Function to print perfect squares between 1 and 100
+def print_perfect_squares():
+    print("Perfect squares between 1 and 100:")
+    for i in range(1, 101):
+        # Check if the square root squared equals the number
+        if int(i**0.5) ** 2 == i:
+            print(i, end=" ")
+    print("\n")
 
-for num in range(1, 101):
 
-    square = int(num ** 0.5)
+# Function to print Armstrong numbers between 1 and 100
+def print_armstrong_numbers():
+    print("Armstrong numbers between 1 and 100:")
+    for num in range(1, 101):
+        digits = str(num)          # Convert number to string to iterate digits
+        power = len(digits)        # Number of digits
+        total = sum(int(d)**power for d in digits)  # Sum of digits^power
+        if total == num:           # Armstrong condition
+            print(num, end=" ")
+    print("\n")
 
-    if square * square == num:
 
-        print(num)
+# Main menu-driven program
+def main():
+    while True:
+        print("Menu:")
+        print("1. Print perfect squares between 1 and 100")
+        print("2. Print Armstrong numbers between 1 and 100")
+        print("3. Exit")
 
-# Program to print all Armstrong numbers between 1 and 100
+        choice = input("Enter your choice (1-3): ")
 
-for num in range(1, 101):
+        if choice == "1":
+            print_perfect_squares()
+        elif choice == "2":
+            print_armstrong_numbers()
+        elif choice == "3":
+            print("Exiting program. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.\n")
 
-    temp = num
 
-    digits = len(str(num))
-
-    total = 0
-
-    while temp > 0:
-
-        digit = temp % 10
-
-        total = total + digit ** digits
-
-        temp = temp // 10
-
-    if total == num:
-
-        print(num)
+# Run the program
+if __name__ == "__main__":
+    main()
