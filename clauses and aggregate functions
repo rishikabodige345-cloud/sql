@@ -69,6 +69,7 @@ SELECT department, MIN(salary) AS min_salary
 FROM Employee
 GROUP BY department
 HAVING MIN(salary) < 20000;
+
 -- 13. Total salary city-wise excluding employees age < 25
 SELECT city, SUM(salary) AS total_salary
 FROM Employee
@@ -180,6 +181,7 @@ SELECT department, SUM(salary) AS total_salary
 FROM Employee
 WHERE experience BETWEEN 2 AND 6
 GROUP BY department;
+
 -- 32. Average salary city-wise excluding salaries < 20,000
 SELECT city, AVG(salary) AS avg_salary
 FROM Employee
@@ -238,5 +240,3 @@ SELECT city, SUM(salary) AS total_salary
 FROM Employee
 WHERE city LIKE '%pur'
 GROUP BY city;
-
-
